@@ -2,7 +2,7 @@
 
 Generate machine learning models to predict severity in COVID-19 and check models between hospitals. This repository contains two .csv files and five notebooks:
 
-##notebooks
+## notebooks
 
 ### bp_integration and hsl_integration
 
@@ -13,14 +13,14 @@ The corrected file and the correspondent codes could be found at github.com/gabi
 
 ### preprocessing_bp_severity_hospitalized and preprocessing_hsl_severity_hospitalized.ipynb
 
-Contains all codes used do preprocessing data from Hospitals Beneficência Portuguesa and Sírio Líbanes. Data available at https://repositoriodatasharingfapesp.uspdigital.usp.br/
+Contains all codes used do preprocessing data from Hospitals Beneficência Portuguesa and Sírio Líbanes. Raw data available at https://repositoriodatasharingfapesp.uspdigital.usp.br/
 
 ### models_training
 
-Contains all codes used to generate machine learning predictive results for five hospitals. Data used contain routine attendance parameters collected up to four days after initial attendance.
+Contains all codes used to generate machine learning predictive results. Data used contain routine attendance parameters collected up to four days after initial attendance.
 
 ## .csv files
 
-###hosp1 and hosp2
+### hosp1 and hosp2
 
-Contains the data resulted from preprocessing described in the notebooks, hosp1 refers to the Hospital Sirio Libanês data and hosp2 refers to the Hospital Beneficência Portuguesa data.
+Contains the data resulted from preprocessing described in the notebooks, hosp1 refers to Hospital Sirio Libanês and hosp2 refers to Hospital Beneficência Portuguesa.
